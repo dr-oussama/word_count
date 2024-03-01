@@ -25,19 +25,19 @@ Execute the program with your desired flags:
 ### Examples
 Count lines in `file.txt`:
 ```sh
-./program -l file.txt
+./word_count -l file.txt
 ```
 Count words in `file.txt`:
 ```sh
-./program -w file.txt
+./word_count -w file.txt
 ```
 Count characters in `file.txt`:
 ```sh
-./program -c file.txt
+./word_count -c file.txt
 ```
 Get all counts for `file.txt`:
 ```sh
-./program file.txt
+./word_count file.txt
 ```
 
 ## Error Handling
